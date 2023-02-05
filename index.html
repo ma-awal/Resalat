@@ -1,0 +1,253 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+   <link rel="stylesheet" href="./output.css">
+
+</head>
+<body>
+ 
+
+ <!-- ========== Start Section home ========== -->
+<section id="header" class="xl:min-h-[830px] max-h-max bg-1 py-[60px]">
+  <div class="container  ">
+   <nav class=" md:flex  md:items-center  md:justify-between">
+      <div class="flex items-center justify-between">
+        <img src="img/logo1.png"   alt=""> 
+          <i class="fas fa-bars md:hidden toggle-btn"></i>
+        </div>
+        <ul class="   toggle-id py-3 px-4   mt-3 md:mt-0 space-y-4 md:space-y-0 md:flex   md:space-x-[50px] lg:space-x-[100px] font-light para-deep text-[14px] md:text-base capitalize ">
+         <li><a href="#" class="active-link   ">home</a></li>
+         <li ><a href="#">about</a></li>
+         <li class="dropdown relative group" > 
+            <button class="">Propertise <i class="fas fa-caret-down fa-sm  ml-2 "></i></button>
+            <ul class="list-none hidden dropdown-menu absolute top-30 py-3 px-4   bg-white  shadow-lg    group-hover:block group-hover:w-full  space-y-4  ">
+               <li><a href="#" class="hover:text-red-400 transition duration-300">page1</a></li>
+               <li><a href="#" class="hover:text-red-400 transition duration-300">page2</a></li>
+               <li><a href="#" class="hover:text-red-400 transition duration-300">page3</a></li>
+            </ul>
+         </li>
+         <li class="z"><a href="#">contact</a></li>
+        </ul>
+   </nav>
+  </div>
+  <div class="container mt-4 md:mt-6 lg:mt-8 xl:mt-[43px]  ">
+   <div class="flex flex-col sm:flex-row   justify-between">
+     <div class="">
+      <h1 class=" sm:max-w-[500px] md:max-w-[777px]  mb-2 lg:mb-4 xl:mb-6 mt-4 lg:mt-6">Temukan Hunian Keluarga Sesuai Keinginanmu</h1>
+      <p class=" text-[14px] md:text-base max-w-[544px]">Menyediakan hunian bagi keluarga anda dengan varian pilihan dan lokasi yang strategis di kota anda dengan cara yang lebih mudah.</p>
+
+      <input   class="bg-[url('img/icon2.png')] pl-12 py-2 md:py-3  lg:py-4  w-full     rounded-[15px]   max-h-[70px] md:max-w-[400px] lg:max-w-[500px]  xl:max-w-[675px] mt-[56px] text-[10px] md:text-[12px] lg:text-14px xl:text-base  text-black     font-light bg-no-repeat bg-[center_left_1.5rem]  " placeholder="Search location, properties, residental group"   >
+
+      <div class="flex  space-x-[6px] sm:space-x-[24px] md:space-x-[40px] lg:space-x-[75px] mt-[32px] md:mt-[42px] lg:mt-[56px] gap-2 count ">
+        <div class="max-w-[149px]">
+          <h1 class="number" data-value="200">0</h1>
+          <p class="text-[14px] md:text-base">Residental grup telah bergabung</p>
+        </div>
+        <div  class="max-w-[149px]">
+          <h1 class="number" data-value="10">0</h1>
+          <p class="text-[14px] md:text-base" >Sudah berpengalaman </p>
+        </div>
+        <div class="max-w-[149px]">
+          <h1 class="number" data-value="999">0</h1>
+          <p class="text-[14px] md:text-base">Properti tersedia di berbagai Kota</p>
+        </div>
+      </div>
+     </div>
+
+     <div class=" ">
+      <img src="img/home.png" class="  hidden md:block  " alt="">
+     </div>
+   </div>
+  </div>
+</section>
+ <!-- ========== End Section home ========== -->
+
+
+
+ <!-- ========== Start featur ========== -->
+ <section id="feature" class="lg:min-h-[672px] py-[100px]">
+  <div class="container  ">
+    <h2 class="lg:w-[533px] max-w-[533px] ">Tahapan Pembelian Properti yang Mudah dan Cepat</h2>
+
+    <div class=" mt-4  md:mt-[42px] lg:mt-[56px]  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3   gap-4   w-full">
+
+
+      <div class="relative    max-w-[300px] mx-auto sm:ml-0  py-[20px] px-[33px] border border-solid border-gray-400   before:border-solid before:border-2   before:rounded  before:h-6   before:border-orange-600 before:absolute before:top-[1rem] before:left-0 ">
+        <div class="flex justify-between">
+           <h6 class="font-[500px] text-sm md:text-base color-[#203239]">Pilih Properti</h6>
+           <span class="text-base text-orange-600">01</span>
+        </div>
+        <p class="text-[rgba(32, 50, 57, 0.55)] text-[12px]    lg:text-[14px] mt-[8px]">Cari properti yang diinginkan sesuai dengan kriteria anda dan keluarga. Cara memilih properti yang bijak dapat anda baca lebih lanjut di sini</p>
+        <button class="px-2  h-6 mt-[10px] md:mt-[32px] lg:mt-[56px]  font-medium text-[12px]  md:text-sm  lg:text-base color-[#203239] relative after:content-[''] after:absolute after:w-[30%] after:bg-[#D6D5C7]   after:hover:w-full after:left-0 after:top-0 after:bottom-0 after:-z-10  duration-300  transition after:h-full  ">Baca lebih Lanjut <i class="ml-2 fas fa-arrow-right  fa-xm "></i> </button>
+      </div>
+      <div class="relative    max-w-[300px] mx-auto sm:ml-0  py-[20px] px-[33px] border-0  before:border-solid before:border-2   before:rounded  before:h-6   before:border-orange-600 before:absolute before:top-[1rem] before:left-0 ">
+        <div class="flex justify-between">
+           <h6 class="font-[500px] text-sm md:text-base color-[#203239]">Pilih Properti</h6>
+           <span class="text-base text-orange-600">01</span>
+        </div>
+        <p class="text-[rgba(32, 50, 57, 0.55)] text-[12px]    lg:text-[14px] mt-[8px]">Cari properti yang diinginkan sesuai dengan kriteria anda dan keluarga. Cara memilih properti yang bijak dapat anda baca lebih lanjut di sini</p>
+        <button class="px-2  h-6 mt-[10px] md:mt-[32px] lg:mt-[56px]  font-medium text-[12px]  md:text-sm  lg:text-base color-[#203239] relative after:content-[''] after:absolute after:w-[30%] after:bg-[#D6D5C7]   after:hover:w-full after:left-0 after:top-0 after:bottom-0 after:-z-10  duration-300  transition after:h-full  ">Baca lebih Lanjut <i class="ml-2 fas fa-arrow-right  fa-xm "></i> </button>
+      </div>
+     
+      <div class="relative border-0   max-w-[300px] mx-auto sm:ml-0  py-[20px] px-[33px]      before:border-solid before:border-2   before:rounded  before:h-6   before:border-orange-600 before:absolute before:top-[1rem] before:left-0 ">
+        <div class="flex justify-between">
+           <h6 class="font-[500px] text-sm md:text-base color-[#203239]">Pilih Properti</h6>
+           <span class="text-base text-orange-600">01</span>
+        </div>
+        <p class="text-[rgba(32, 50, 57, 0.55)] text-[12px]    lg:text-[14px] mt-[8px]">Cari properti yang diinginkan sesuai dengan kriteria anda dan keluarga. Cara memilih properti yang bijak dapat anda baca lebih lanjut di sini</p>
+        <button class="px-2  h-6 mt-[10px] md:mt-[32px] lg:mt-[56px]  font-medium text-[12px]  md:text-sm  lg:text-base color-[#203239] relative after:content-[''] after:absolute after:w-[30%] after:bg-[#D6D5C7]   after:hover:w-full after:left-0 after:top-0 after:bottom-0 after:-z-10  duration-300  transition after:h-full  ">Baca lebih Lanjut <i class="ml-2 fas fa-arrow-right  fa-xm "></i> </button>
+      </div>
+     
+  
+    </div>
+  </div>
+ </section>
+ <!-- ========== End  feature ========== -->
+
+
+
+
+   <!-- ========== Start favorite ========== -->
+     <section id="favourit" class="bg-1 py-6   sm:py-10   md:pb-[32px]     max-h-min ">
+      <div class="container">
+
+        <p class="text-orange-500   font-medium">Pilihan konsumen</p>
+        <h2 class="">Residen Favorit</h2>
+         <div class=" grid grid-cols-1 lg:grid-cols-2   md:mt-[24px] lg:mt-[64px]   gap-4 md:py-6 lg:py-0  justify-center   ">
+            <div class="order-2 lg:order-1 bg-[url('img/im1.png')] bg-no-repeat md:max-w-full md:mx-auto  ">
+               <img src="img/im2.png" class="mt-[60px] max-w-full  lg:ml-[40px] xl:ml-[80px] hidden md:block   shrink-0" alt="">
+            </div>
+            <div class=" order-2 lg:order-1 ">
+              <h2 class="lg:min-w-[507px] max-w-[507px]">Bangunan yang dirancang oleh Aristektur Handal</h2>
+              <p class=" mt-2 lg:mt-[24px] max-w-[570px] text-[12px] md:text-base ">Tanpa diragukan, properti yang disediakan dalam webiste kami merupakan hasil kerjasama secara profesional dengan para Arsitektur ternama dan Developer yang terpercaya.</p>
+              <div class="md:flex space-y-2 sm:space-y-0 sm:space-x-[24px]    md:flex-row     md:space-x-[48px] mt-[18px]  md:mt-[24px] lg:mt-[41px]  ">
+                <button class="dark-btn bg-[url('img/icon1.png')] shrink-0    hover:text-red-400 transition duration-300  bg-no-repeat bg-[center_left_.5rem] md:bg-[center_left_1rem]">Hubungi Kami</button>
+                <button class="light-btn bg-2 text-white shrink-0  hover:text-red-400 transition duration-300"  >Explore lebih banyak</button>
+              </div>
+            </div>
+         </div>
+      </div>
+     </section>
+   <!-- ========== End favorit ========== -->
+
+
+ 
+   <!-- ========== Start slider ========== -->
+   <section id="favourit" class=" py-[68px] max-h-max lg:min-h-[890px] ">
+    <div class="container">
+      <p class="text-orange-500 font-base font-medium">Pilihan konsumen</p>
+      <h2 class="">Residen Favorit</h2>
+      <div class="swiper mySwiper mt-[24px]  md:mt-[48px] lg:mt-[64px]  ">
+        <!-- wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide max-w-[457px] mx-auto w-full">
+            <img src="img/image 5.png" class="max-w-full " alt="">
+            <h3 class="font-medium text-[16px] md:text-[24px] para-deep mt-4">Magnolia Surabaya</h3>
+            <p class="font-light text-[12px] md:text-[14px] lg:text-base para-deep leading-normal md:leading-[30px] mt-2">Jl. Gatot Subroto No.KM.6,8, RT.001/RW.008, Jatake, Kec. Jatiuwung, Kota Tangerang, Banten 15136</p>
+          </div>
+
+          <div class="swiper-slide max-w-[457px]">
+            <img src="img/image 6.png" class="max-w-full " alt="">
+            <h3 class="font-medium text-[16px] md:text-[24px] para-deep mt-4">Magnolia Surabaya</h3>
+            <p class="font-light text-[12px] md:text-[14px] lg:text-base  para-deep leading-normal md:leading-[30px]mt-2">Jl. Gatot Subroto No.KM.6,8, RT.001/RW.008, Jatake, Kec. Jatiuwung, Kota Tangerang, Banten 15136</p>
+          </div>
+
+          <div class="swiper-slide max-w-[457px]">
+            <img src="img/image 7.png" class="max-w-full " alt="">
+            <h3 class="font-medium text-[16px] md:text-[24px] para-deep mt-4">Magnolia Surabaya</h3>
+            <p class="font-light text-[12px] md:text-[14px] lg:text-base  para-deep leading-normal md:leading-[30px] mt-2">Jl. Gatot Subroto No.KM.6,8, RT.001/RW.008, Jatake, Kec. Jatiuwung, Kota Tangerang, Banten 15136</p>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination     mt-4 hidden md:block"></div>
+
+         
+        </div>
+      </div>
+   </section>
+ <!-- ========== End slider ========== -->
+
+
+
+
+
+ <!-- ========== Start  contact ========== -->
+ <section class=" min-h-min bg-1 py-[48px]" id="footer">
+  <div class="container">
+    <div class=" flex flex-col      space-y-4 lg:space-y-0 lg:gap-x-4  lg:flex-row   lg:justify-between  w-full ">
+  <!-- box 1 -->
+  <div class=" basis-auto">
+    <h2 class=" text-start sm:text-center lg:text-start mb-3 lg:mb-4 ">Hubungi Kami</h2>
+    <div class=" flex flex-col sm:flex-row gap-4 lg:gap-8  sm:justify-center      ">
+      <div class="border  flex-shrink-0  border-1 border-orange-300  lg:flex-shrink-0  lg:max-w-[243px] rounded-lg    p-6">
+        <div class=" flex items-center gap-2 lg:gap-x-[18px]" >
+          <img src="./img/icon3.png" class="w-[24px] md:w-[28px]  lg:w-[32px]   "alt="">
+        <div class="">
+          <h6 class="text-[12px]   md:text-base  font-medium capitalize">call</h6>
+          <span class="text-[12px] md:text-base font-light text-[#203239]">+6281232936733</span>
+        </div>
+        </div>
+        <button class="  hover:bg-slate-900 transition duration-300  max-w-[195px] md:min-w-[195px]  text-[12px] md:text-base  py-[10px] md:py-[13px]  px-[28px] md:px-[41px] capitalize  font-medium text-orange-500   bg-orange-200   text rounded-[10px]   mt-6">Call now</button>
+      </div>
+
+      <div class="border border-1 flex-shrink-0    border-orange-300 lg:flex-shrink-0  lg:max-w-[318px]   p-6  ">
+        <div class=" flex items-center gap-2 lg:gap-x-[18px]  " >
+          <img src="./img/icon4.png" class="w-[24px] md:w-[28px]  lg:w-[32px]   "alt="">
+        <div class="">
+          <h6 class="text-[12px]   md:text-base  font-medium capitalize">Mail</h6>
+          <span class="text-[12px] md:text-base font-light text-[#203239]">omahindev@gmail.com</span>
+        </div>
+        </div>
+        <button class="max-w-[195px] md:min-w-[195px]  hover:bg-slate-900 transition duration-300  text-[12px] md:text-base  py-[10px] md:py-[13px]  px-[28px] md:px-[41px] capitalize  font-medium text-[#EEEDDE]  bg-orange-400   text rounded-[10px]   mt-6">Mail now</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- box2 -->
+  <div class=" md:basid-[40%] lg:basis-auto flex-shrink-0 ">
+    <h2 class="text-start sm:text-center  lg:mb-4">Penghargaan</h2>
+    <div class=" flex gap-4  sm:justify-center         ">
+        <img src="img/image 8.png" class="max-w-[156px] object-contain" alt=""> 
+       <img src="img/image 9.png" class=" max-w-[211px]   object-contain" alt=""> 
+    </div>
+  </div>
+  </div>
+  </div>
+ </section>
+ <!-- ========== End End contact ========== -->
+
+
+
+ <!-- ========== Start footer ========== -->
+ <div class="bg-[#203239] ">
+  <div class=" container flex items-center justify-between  py-[24px] md:py-[34px]  lg:py-[38px] ">
+    <a href="#"><img src="img/logo2.png" alt=""></a>
+     <div class="flex space-x-4 md:space-x-8">
+      <a href="#" ><img class="hover:bg-red-400 transition duration-300 " src="img/insta.png" alt=""></a>
+      <a href="#"  ><img class="hover:bg-red-400 transition duration-300 " src="img/facebook.png" alt=""></a>
+      <a href="#"  ><img class="hover:bg-red-400 transition duration-300 " src="img/twiter.png" alt=""></a>
+      <a href="#"  ><img class="hover:bg-red-400 transition duration-300 " src="img/linkdin.png" alt=""></a>
+     </div>
+  </div>
+</div>
+ <!-- ========== End footer ========== -->
+
+
+
+
+
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+   <script src="./js/app.js" type="module"></script>
+</body>
+</html> 
+ 
